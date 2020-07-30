@@ -1,0 +1,45 @@
+.left-body{
+    background: url('https://images.unsplash.com/photo-1511367734837-f2956f0d8020?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=694&q=80') no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    .left-body{
+        min-height: 91vh;
+    }
+  }
+  .clr2{
+      color:white;
+  }
+  .clr{
+      color: #343a40;
+  }
+  .clr1{
+    color: #50555a;
+}
+.txt-shd{
+    text-shadow: 0rem 0rem 0.3rem;
+}
+  .hdr-sty{
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+
+  .dot{
+      border: 1.5px solid #1baec3;
+      width:7%;
+      margin:5px auto;
+  }
+
+mat-form-field{
+    width: 70% !important;
+}
+
+.input-cls{
+    border: 1px solid #e0e0e0;
+    width: 70%;
+    padding: 1.75%;
+    border-radius: 3px;
+}

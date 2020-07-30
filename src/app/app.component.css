@@ -1,0 +1,17 @@
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    text-shadow: 0.1rem 0.1rem 1rem;
+}
+.navbar{
+    box-shadow: 0rem 0.2rem 0.2rem;
+}
+@media only screen and (min-width: 768px) {
+    .navbar{
+        height: 9vh;
+    }
+  }
+
